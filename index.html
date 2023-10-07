@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chatSection">
+        <div class="logo">
+            <img height="40" src="https://cdn-icons-png.flaticon.com/128/3291/3291698.png" alt="error">
+            <h1>Chat</h1>
+            <h1 class="username">
+
+            </h1>
+        </div>
+        <div class="message_area">
+        </div>
+        <div class="send-button-container">
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message"></textarea>
+            <img src="https://cdn-icons-png.flaticon.com/128/9333/9333991.png" alt="Send" id="send-button">
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
